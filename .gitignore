@@ -1,0 +1,12 @@
+#vendor
+/vendor
+
+#config
+/config/config.php
+
+#cahce folder
+/runtime
+
+/node_modules
+
+/bower_components
