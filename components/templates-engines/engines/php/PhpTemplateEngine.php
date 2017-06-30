@@ -52,12 +52,12 @@ class PhpTemplateEngine implements TemplateEngineInterface
 
 		if ($vars) 
 			extract($vars);
-		
+
 		ob_start();
 
-	    include $this->config->viewsPath.$view_name.'.php';
+		include $this->config->viewsPath.$view_name.'.php';
 
-	    return ob_get_clean();
+		return ob_get_clean();
 
 	}
 
